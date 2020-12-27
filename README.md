@@ -2,26 +2,26 @@
 This is an introductory project to Node.js
 
 ## This app can:
-1. **add** and save new notes. 
+1. **Add** and save new notes. 
 - Two arguments are required: title and body. 
 - Type the following command to add a new note: 
 ```shell 
 node app.js add --title="add-a-title-here" --body="add-your-notes-here"
 ```
 - Notes must have unique titles.
-2. **list** all saved notes.
+2. **List** all saved notes.
 - No additional arguments are required. 
 - Type the following command to list your notes: 
 ```shell 
 node app.js list
 ```
-3. **read** a note.
+3. **Read** a note.
 - One argument is required: title. 
 - Type the following command to read a note: 
 ```shell 
 node app.js read --title="add-an-existing-title-here"
 ```
-4. **remove** a note.
+4. **Remove** a note.
 - One argument is required: title. 
 - Type the following command to remove a note: 
 ```shell 
@@ -38,9 +38,9 @@ node app.js remove --title="add-an-existing-title-here"
 
 ## Modules used in this app
 - File System:
-- - Creating and writting new files.
-- - Appending to existing files.
-- - Reading files.
+    - Creating and writting new files.
+    - Appending to existing files.
+    - Reading files.
 - Yargs:
 - - Taking user inputs from users via comand line arguments.
 - - Parsing arguments.
