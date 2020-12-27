@@ -48,8 +48,13 @@ const removeNote = (title) => {
 
 const listNotes = () => {
     const notes = loadNotes();
-    console.log(chalk.magenta('Your notes: '));
-    notes.forEach((note) => console.log(chalk.cyan.italic.dim(note.title)));
+    if (notes.length > 0) {
+        console.log(chalk.magenta('Your notes: '));
+        notes.forEach((note) => console.log(chalk.cyan.italic.dim(note.title)));
+    } else {
+        console.log(chalk.red('There is no notes stored.'))
+    }
+    
 }
 
 const readNote = (title) => {
