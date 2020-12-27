@@ -42,17 +42,14 @@ node app.js remove --title="add-an-existing-title-here"
     - Appending to existing files.
     - Reading files.
 - Yargs:
-- - Taking user inputs from users via comand line arguments.
-- - Parsing arguments.
-- - Customizing app version.
-- - Creating commands and defining its properties.
+    - Taking user inputs from users via comand line arguments.
+    - Parsing arguments.
+    - Customizing app version.
+    - Creating commands and defining its properties.
 - Chalk:
-- - Styling terminal strings.
+    - Styling terminal strings.
 
 ## Other js features revised:
-- Storing Data as JSON.
-- - Converting JavaScript objects into JSON strings.
-- - Converting JSON strings into JavaScript objects.
-
-
-
+- Storing Data as JSON. 
+    - Converting JavaScript objects into JSON strings.
+    - Converting JSON strings into JavaScript objects.
